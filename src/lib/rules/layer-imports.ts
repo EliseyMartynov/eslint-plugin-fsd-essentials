@@ -15,7 +15,7 @@ const rule: Rule.RuleModule = {
     type: 'problem',
     docs: {
       description: 'Enforce Feature-Sliced Design layer import rules',
-      category: 'Architecture' as any,
+      category: 'Architecture',
       recommended: true,
     },
     fixable: 'code',

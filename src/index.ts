@@ -7,12 +7,7 @@ export = {
   configs: {
     recommended: {
       rules: {
-        'fsd/layer-imports': ['error', {}],
-      },
-    },
-    custom: {
-      rules: {
-        'fsd/layer-imports': ['error', {
+        'fsd-essentials/layer-imports': ['error', {
           srcPath: '/src/',
           aliasPrefix: '@',
         }],

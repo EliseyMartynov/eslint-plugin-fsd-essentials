@@ -1,15 +1,20 @@
 {
-  "name": "eslint-plugin-fsd",
+  "name": "eslint-plugin-fsd-essentials",
   "version": "1.0.0",
   "description": "ESLint plugin for Feature-Sliced Design architecture",
   "main": "dist/index.js",
   "keywords": [
     "eslint",
     "eslintplugin",
+    "eslint-plugin",
     "fsd",
-    "feature-sliced-design"
+    "feature-sliced-design",
+    "architecture",
+    "import",
+    "layer",
+    "code-quality"
   ],
-  "author": "",
+  "author": "Elisey Martynov",
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">=7.0.0"

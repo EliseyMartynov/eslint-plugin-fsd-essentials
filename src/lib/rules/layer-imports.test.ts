@@ -18,9 +18,7 @@ describe('FSD Plugin Tests', () => {
     rules: {
       'layer-imports': [
         'error',
-        {
-          srcPath: '/src/',
-        },
+        {},
       ],
     },
     parserOptions: {
