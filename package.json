@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-fsd",
+  "version": "1.0.0",
+  "description": "ESLint plugin for Feature-Sliced Design architecture",
+  "main": "dist/index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "fsd",
+    "feature-sliced-design"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm test",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "vitest": "^2.0.4",
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "typescript": "^5.9.3"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
