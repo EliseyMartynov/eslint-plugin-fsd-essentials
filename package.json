@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fsd-essentials",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ESLint plugin for Feature-Sliced Design architecture",
   "main": "dist/index.js",
   "keywords": [

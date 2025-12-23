@@ -33,9 +33,9 @@ npm install --save-dev eslint-plugin-fsd-essentials
 ```javascript
 // .eslintrc.js
 module.exports = {
-    plugins: ['fsd'],
+    plugins: ['fsd-essentials'],
     extends: [
-        'plugin:fsd/recommended'
+        'plugin:fsd-essentials/recommended'
     ]
 };
 ```
@@ -45,9 +45,9 @@ module.exports = {
 ```javascript
 // .eslintrc.js
 module.exports = {
-    plugins: ['fsd'],
+    plugins: ['fsd-essentials'],
     rules: {
-        'fsd/layer-imports': ['error', {
+        'fsd-essentials/layer-imports': ['error', {
             srcPath: '/src/',
             aliasPrefix: '@',
         }],
@@ -110,7 +110,7 @@ import { user } from '../../entities/user'; // ❌ Относительный и
 
 ```javascript
 // Рекомендуемая конфигурация
-extends: ['plugin:fsd/recommended']
+extends: ['plugin:fsd-essentials/recommended']
     
 // Содержит по умолчанию
 // srcPath: '/src/'
